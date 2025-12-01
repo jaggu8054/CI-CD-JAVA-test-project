@@ -20,7 +20,7 @@ jobs:
     - name: maven  clean compile
       run: mvn  package
     - name: see the package
-      run : ls -l 
+      run : ls -l  target/
 
       
 
